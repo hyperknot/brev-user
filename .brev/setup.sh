@@ -2,7 +2,7 @@
 
 set -eo pipefail
 
-touch "$HOME/brev-user-started"
+touch brev-user-started
 
 
 sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main universe"

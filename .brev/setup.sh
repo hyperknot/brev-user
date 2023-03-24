@@ -2,7 +2,7 @@
 
 set -eo pipefail
 
-touch brev-user.sh
+touch brev-user-started
 
 ## install and configure oh-my-zsh headless for ubuntu 20.04
 sudo apt update && sudo apt install -y zsh
